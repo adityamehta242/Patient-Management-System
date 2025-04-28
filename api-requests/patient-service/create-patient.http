@@ -7,7 +7,7 @@ Content-Type: application/json
   "address": "Gandhinagar , pincode - 382007",
   "dateOfBirth": "1990-01-01",
   "email": "adityamehta1@gmail.com",
-  "gender": "",
+  "gender": "Male",
   "registeredOn": "2025-04-28"
 }
 
