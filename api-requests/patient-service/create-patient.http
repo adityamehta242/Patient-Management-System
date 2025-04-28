@@ -1,0 +1,14 @@
+### CREATE a new Patient Entiry
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "aditya mehta",
+  "address": "Gandhinagar , pincode - 382007",
+  "dateOfBirth": "1990-01-01",
+  "email": "adityamehta1@gmail.com",
+  "gender": "",
+  "registeredOn": "2025-04-28"
+}
+
+###
