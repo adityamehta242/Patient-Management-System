@@ -1,0 +1,13 @@
+### Update existing Patients Details
+PUT http://localhost:4000/patients/3f2504e0-4f89-11d3-9a0c-0305e82c3301
+Content-Type: application/json
+
+{
+  "name": "Amit Mishra",
+  "address": "123 MG Road, Bengaluru, Karnataka",
+  "dateOfBirth": "1990-05-21",
+  "email": "amit.mishra@example.in",
+  "gender": "Male"
+}
+
+###
