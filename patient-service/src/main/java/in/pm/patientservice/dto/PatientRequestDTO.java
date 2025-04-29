@@ -22,6 +22,12 @@ public class PatientRequestDTO {
     @NotBlank(message = "Date of Birth is Required")
     private String dateOfBirth;
 
+    /**
+     * The 'registeredOn' field represents the date the patient was registered.
+     * The @NotBlank validation ensures that this field is not blank when creating a new patient,
+     * but the validation is only triggered during the CreatePatientValidationGroup group.
+     * This prevents the validation from applying during other operations, like updates.
+     */
     @NotBlank(groups = CreatePatientValidationGroup.class, message = "Register Date is Required")
     private String registeredOn;
 
